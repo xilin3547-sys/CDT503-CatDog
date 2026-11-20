@@ -20,11 +20,10 @@ attribute table** for the predicted category.
 
 | | Link |
 |---|---|
-| 🌐 Hugging Face Spaces | **[待填写 — 部署后更新]** |
 | 🎬 Demo Video / 演示录屏 | **[待填写 — 录屏后更新]** |
 
-> ⚠️ Colab 生成的 `*.gradio.live` 链接约 24 小时失效，仅作现场演示用；
-> 永久链接请以 Hugging Face Spaces 为准。
+> ℹ️ Colab 生成的 `*.gradio.live` 链接约 24 小时失效，仅作课堂现场演示用；
+> 永久可回看的演示请看上方录屏视频。
 
 ---
 
@@ -53,7 +52,7 @@ attribute table** for the predicted category.
 ```
 CDT503-CatDog/
 ├── README.md              # 本文件
-├── app.py                 # Gradio demo (Hugging Face Spaces)
+├── app.py                 # Gradio demo（本地运行 python app.py）
 ├── requirements.txt       # Python dependencies
 ├── colab/
 │   ├── step2_data.py      # 数据预处理
@@ -75,7 +74,7 @@ CDT503-CatDog/
 2. Run `colab/step2_data.py` → `step3_model.py` → `step4_train.py` → `step5_plot.py`
 3. Run `colab/step6_gradio.py` to get a temporary demo link
 
-### Option 2: Local / Hugging Face Spaces (inference / 推理)
+### Option 2: Local (inference / 本地推理)
 
 ```bash
 pip install -r requirements.txt

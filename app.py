@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CDT503 Cat-Dog Recognition Prototype - Gradio App (Hugging Face Spaces)"""
+"""CDT503 Cat-Dog Recognition Prototype - Gradio App"""
 
 import os
 import torch
